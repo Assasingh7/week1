@@ -1,4 +1,4 @@
- package Day1;
+ package Day1.Day1;
 
 public class Flowcharts {
 
