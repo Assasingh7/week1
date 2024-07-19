@@ -20,6 +20,22 @@ public class Practice4 {
         //     System.out.println();
         // }
         
+for (int i = 1; i <=n; i++) {
+    for(int k=1;k<=n-i;k++){
+        System.out.print("  ");
+    }
+    for (int j = 1; j <=i; j++) {
+        if(i==j) System.out.print(0+" ");
+        else System.out.print(n-i+j+" ");
+    }
+    for (int j = 2; j <=i; j++) {
+        System.out.print(n-j+1+" ");
+    }
+    System.out.println();
+}
 
     }
-}
+
+
+    }
+
